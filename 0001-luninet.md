@@ -1,7 +1,11 @@
 # luninet network proposal
 
 **Author:** lunarix
+
+
 **Revision:** 2, 2026
+
+
 **Status:** Draft
 
 ---
@@ -11,6 +15,12 @@
 luninet is a layer 3 VPN network for computer club members. It provides data transport and NAT traversal services across member sites. Although the address space is private, all addressing and routing policy should be treated with the same discipline as a public network.
 
 ---
+
+## Purpose
+This document acts as foundational spec that can be then in conjuction with new changes, and provides a starting point and standard that's delivered with little effort, and leaves room for expansion.
+
+--- 
+
 
 ## 1. IPv4 Addressing
 
