@@ -56,3 +56,11 @@ genesis operates within `172.29.80.0/21` as assigned by RFC 0001.
 | `172.29.86.0/24` | Unassigned     |
 | `172.29.87.0/24` | Unassigned     |
  
+
+## 3. IPv6 Addressing
+
+Following the SLAAC model, generate a unique /64 address from the /48. 
+
+| Prefix                  | Purpose        |
+| `fd49:093b:2b68::1/128` | Router         |
+| `fd49:093b:2b68:1::/56` | Router Clients |
