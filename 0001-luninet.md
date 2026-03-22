@@ -48,7 +48,7 @@ Despite being RFC 1918 space, this block should be treated as if it were globall
 | `172.29.104.0/21` | Unassigned                               |
 | `172.29.112.0/21` | Unassigned                               |
 | `172.29.120.0/21` | Unassigned                               |
-| `172.29.255.0/24` | Router links (point-to-point, /31 pairs) |
+| `172.29.65.0/24` | Router links (point-to-point, /31 pairs) |
 
 IPv4 support is included for legacy application compatibility only. New services should prefer IPv6.
 

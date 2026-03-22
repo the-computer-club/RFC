@@ -19,12 +19,13 @@ This document describes how to connect to the genesis network. All specification
  
 ---
  
-## 0. Quick reference
+## 1. Quick reference
  
-| Parameter      | Value            |
-|----------------|------------------|
-| Gateway prefix | `172.29.80.0/21` |
-| ASN            | `4211555452`     |
+| Parameter | Value            |
+|-----------|------------------|
+| ASN       | `4211555452`     |
+| Gateway   | `172.29.64.1`    |
+| Network   | `172.29.80.0/24` |
  
 **Route table:**
  
@@ -38,9 +39,9 @@ This document describes how to connect to the genesis network. All specification
  
 ---
  
-## 1. IPv4 Addressing
+## 2. IPv4 Addressing
  
-### 1.1 Allocated block
+### 2.1 Allocated block
  
 genesis operates within `172.29.80.0/21` as assigned by RFC 0001.
  
