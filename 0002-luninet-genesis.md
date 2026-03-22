@@ -25,7 +25,8 @@ This document describes how to connect to the genesis network. All specification
 |-----------|------------------|
 | ASN       | `4211555452`     |
 | Gateway   | `172.29.64.1`    |
-| Network   | `172.29.80.0/24` |
+| Network   | `172.29.80.0/21` |
+| IP-Pool   | `172.29.80.0/24` |
  
 **Route table:**
  
