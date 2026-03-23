@@ -93,7 +93,7 @@ Each zone router must export its prefixes via eBGP to its upstream block router,
 - Only 32-bit private ASNs are accepted (`4200000000`–`4294967294`).
 - Only `fc00::/7` (ULA) prefixes are advertised to external peers.
 - Default routes (`0.0.0.0/0` and `::/0`) may be accepted and routed internally but must not be re-advertised.
-- Router link prefixes (`172.29.255.0/24`) must be filtered from all eBGP advertisements.
+- Router link prefixes (`172.29.65.0/24`) must be filtered from all eBGP advertisements.
 
 ---
 
